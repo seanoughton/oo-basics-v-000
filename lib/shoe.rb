@@ -6,3 +6,5 @@ class Shoe
   attr_reader :brand
   attr_accessor :color
 end
+
+Shoe.new

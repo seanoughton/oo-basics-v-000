@@ -4,7 +4,7 @@ class Shoe
   end
 
   attr_reader :brand
-  attr_accessor :color
+  attr_accessor :color, :size
 end
 
 Shoe.new("Nike")

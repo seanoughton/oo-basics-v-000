@@ -5,6 +5,10 @@ class Shoe
 
   attr_reader :brand
   attr_accessor :color, :size, :material, :condition
+
+  def cobble()
+  end
+
 end
 
 Shoe.new("Nike")
